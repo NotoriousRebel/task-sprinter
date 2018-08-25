@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>907</width>
+    <width>906</width>
     <height>562</height>
    </rect>
   </property>
@@ -18,21 +18,53 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
+      <y>30</y>
       <width>151</width>
-      <height>511</height>
+      <height>381</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>New Routine</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
    </widget>
    <widget class="QListWidget" name="tasksListWidget">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>10</y>
-      <width>541</width>
-      <height>491</height>
+      <x>180</x>
+      <y>30</y>
+      <width>531</width>
+      <height>461</height>
      </rect>
     </property>
+    <item>
+     <property name="text">
+      <string>New Task</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
    </widget>
    <widget class="QLCDNumber" name="clockNumber">
     <property name="geometry">
@@ -70,13 +102,39 @@
      <string>Done</string>
     </property>
    </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="addTaskButton">
+       <property name="text">
+        <string>Add task</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addRoutineButton_2">
+       <property name="text">
+        <string>Add routine</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>907</width>
+     <width>906</width>
      <height>25</height>
     </rect>
    </property>

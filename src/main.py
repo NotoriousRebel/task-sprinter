@@ -1,7 +1,6 @@
 import sys
 
 
-
 options = {'1': 'START',
            '2': 'ADD',
            '3': 'REMOVE',
@@ -26,19 +25,27 @@ def print_menu():
 if __name__ == "__main__":
     while True:
         print_menu()
-        option = get_option() # not implemented correctly, lacks input validation
+        option = get_option() # lacks input validation
         if options[option] == 'START':
             print('Starting')
-            pass
+            routine = choose_routine()
+            routine.start()
+
         elif options[option] == 'ADD':
             print('Adding')
-            pass
+            routine = choose_routine()
+            routine.add()
+
         elif options[option] == 'REMOVE':
             print('Removing')
-            pass
+            routine = choose_routine()
+            routine.remove()
+
         elif options[option] == 'EDIT':
             print('Editing')
-            pass
+            routine = choose_routine()
+            routine.edit()
+
         else: # EXIT
             print('Exiting')
             sys.exit()

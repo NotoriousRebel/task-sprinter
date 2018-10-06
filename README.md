@@ -20,4 +20,13 @@ to keep you motivated.
 
 ## Contributing
 
+##To create venv:
+   #Windows
+     ```python -m venv /path/to/new/env```
+     
+   #Mac/Unix
+    ```python3 -m venv /path/to/new/env```
 
+##To run right out of the box
+ ```git clone https://github.com/LTKills/task-sprinter.git```
+ ```python3/python task-sprinter.py```

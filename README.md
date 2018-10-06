@@ -20,15 +20,15 @@ to keep you motivated.
 
 ## Contributing
 
-### To create venv and activate it:
-   #### Windows
+#### To create venv and activate it:
+   ##### Windows
 ```python -m venv /path/to/new/env``` (Assuming path is set correctly, if not go inside Python35 directory) <br> 
 ```name_of_env\Scripts\activate.bat``` 
 
-   #### Mac/Unix
+   ##### Mac/Unix
 ```python3 -m venv /path/to/new/env``` <br>
 ```source name_of_env/bin/activate```
 
-### To run right out of the box
+#### To run right out of the box
  ```git clone https://github.com/LTKills/task-sprinter.git```
  ```python3/python task-sprinter.py```

@@ -20,7 +20,7 @@ to keep you motivated.
 
 ## Contributing
 
-### To create venv:
+### To create venv and activate it:
    #### Windows
 ```python -m venv /path/to/new/env``` (Assuming path is set correctly, if not go inside Python35 directory) <br> 
 ```name_of_env\Scripts\activate.bat``` 

@@ -23,10 +23,11 @@ to keep you motivated.
 ### To create venv:
    #### Windows
 ```python -m venv /path/to/new/env```
-```name_of_env\Scripts\activate.bat
+```name_of_env\Scripts\activate.bat```
+
    #### Mac/Unix
 ```python3 -m venv /path/to/new/env```
-```source name_of_env/bin/activate
+```source name_of_env/bin/activate```
 
 ### To run right out of the box
  ```git clone https://github.com/LTKills/task-sprinter.git```

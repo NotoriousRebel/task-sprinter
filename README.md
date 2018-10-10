@@ -23,12 +23,12 @@ to keep you motivated.
 #### To create venv and activate it:
    ##### Windows
 ```python -m venv /path/to/new/env``` (Assuming path is set correctly, if not go inside Python35 directory) <br> 
-```name_of_env\Scripts\activate.bat``` 
+```name_of_env\Scripts\activate.bat``` <br>
 ```deactivate``` when done
 
    ##### Mac/Unix
 ```python3 -m venv /path/to/new/env``` <br>
-```source name_of_env/bin/activate```
+```source name_of_env/bin/activate``` <br>
 ```deactivate``` when done
 
 #### To run right out of the box

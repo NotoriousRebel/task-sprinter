@@ -36,5 +36,5 @@ to keep you motivated.
  ```python3/python task-sprinter.py```
 
 #### Why venvs?
-     Portability and to seperate packages and their dependecies. 
+   Portability and to seperate packages and their dependecies. 
      
